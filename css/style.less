@@ -1,0 +1,347 @@
+*{
+	margin:0;
+	padding:0;
+}
+html,body,.wrap,.slide,.slide>div{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+.wrap{
+	position:relative;
+}
+.slide>div *{
+	display:none;
+}
+.slide>.active *{
+	display:block;
+}
+.first{
+	position:absolute;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+	background:#473f32;
+	display:-webkit-box;
+	-webkit-box-align:center;
+	-webkit-box-pack:center;
+	-webkit-box-orient:vertical;
+	-webkit-animation:fadeOut .5s 2.5s forwards;
+	.pagebox{
+		width:80%;
+		height:60%;
+		img{
+			height:auto;
+			display:block;
+			margin:15% auto;
+			-webkit-animation-delay:2s;
+		}
+	}
+}
+.page1{
+	background:orange;
+	display:-webkit-box;
+		-webkit-box-align:center;
+		-webkit-box-pack:center;
+		-webkit-box-orient:vertical;
+	.page1box{
+		width:80%;
+		height:80%;
+		-webkit-animation:fadeIn 1s 3s forwards;
+		img{
+			height:auto;
+			display:block;
+			margin:0 auto;
+			-webkit-animation-delay:2.8s;
+		}
+		.med{
+			width:50%;
+			margin:10% auto;
+		}
+		.ren{
+			width:100%;
+			margin-bottom:30%;
+		}
+		.yao{
+			width:30%;
+			margin-top:60%;
+		}
+		.j{
+			width:12%;
+			margin-top:15%;
+		}
+	}
+}
+.body{
+	position:absolute;
+	display:none;
+	width:24%;
+	left:36%;
+	top:43%;
+	z-index:-1;
+	img{
+		width:100%;
+		height:auto;
+		position:relative;
+		z-index:1;
+	}
+}
+.page2{
+	background:#19b6bd;
+	.page2box{
+		width:85%;
+		height:80%;
+		position:relative;
+		padding:10% 7.5%;
+		img{
+			position:absolute;
+			z-index:1;
+		}
+	}
+}
+.txt{
+	width:80%;
+	height:auto;
+	display:block;
+	z-index:9;
+}
+.yin{
+	width:80%;
+	left:10%;
+	top:62%;
+}
+.shangyi{
+	width: 23%;
+    left: 36.5%;
+    top: 56%;
+    z-index:77;
+}
+.kuzi{
+	width: 10%;
+    top: 65.8%;
+    z-index: 77;
+    left: 42.9%;
+}
+.face{
+	width: 14%;
+    z-index: 2;
+    left: 40%;
+    top: 42.5%;
+}
+.glass{
+	width: 13%;
+    z-index: 3;
+    left: 41.5%;
+    top: 47%;
+}
+.zuo{
+	width:10%;
+    left: 30%;
+    top: 49%;
+}
+.you{
+	width: 15%;
+    left: 54%;
+    top: 52.5%;
+    z-index: 2;
+}
+.xiang{
+	    width: 30%;
+    top: 80%;
+    left: 35%;
+}
+.biao{
+	width:10%;
+	left:80%;
+	top:32%;
+}
+.zhuo{
+	width: 50%;
+    top: 56%;
+    left: 25%;
+}
+.shu1{
+	width: 20%;
+    left: 10%;
+    top: 43%;
+}
+.shu2{
+	width: 20%;
+    right: 10%;
+    top: 43%;
+}
+.hua{
+	width: 20%;
+    right: 10%;
+    top: 49%;
+
+}
+.deng{
+	width: 12%;
+    right: 10%;
+    top: 0;
+}
+.page3{
+	background:#353066;
+	.page3box{
+		width:85%;
+		height:80%;
+		position:relative;
+		padding:10% 7.5%;
+		img{
+			position:absolute;
+		}
+	}
+	.zhuo{
+		width: 65%;
+	    left: 7%;
+	    top: 45%;
+	}
+	.glass{
+		top:47%;
+	}
+	.face{
+		width:13%;
+		left:41%;
+		top:41%;
+	}
+	.zuo{
+		width: 8%;
+	    left: 34%;
+	    top: 53%;
+	}
+}
+.page4{
+	background:#e15352;
+	.page4box{
+		width:85%;
+		height:80%;
+		position:relative;
+		padding:10% 7.5%;
+		img{
+			position:absolute;
+		}
+		.you{
+			width: 5%;
+		    top: 51%;
+		    left: 56%;
+		}
+		.zuo{
+			width: 6%;
+		    left: 33%;
+		    top: 51%;
+		}
+		.zhuo{
+			width:80%;
+			left:10%;
+			top:50%;
+			z-index:2;
+		}
+		.qiang{
+			width:75%;
+			left:12.5%;
+			top:40%;
+			z-index:-2;
+		}
+		.rili{
+			width:10%;
+			right:15%;
+			top:38%;
+			z-index:3;
+		}
+		.nn{
+			width:10%;
+			right:30%;
+			top:45%;
+			z-index:3;
+		}
+	}
+}
+.page5{
+	background:#fe8953;
+	.page5box{
+		width:85%;
+		height:80%;
+		position:relative;
+		padding:10% 7.5%;
+		img{
+			position:absolute;
+		}
+	}
+	.you{
+		width:4%;
+		left:57%;
+	}
+	.zuo{
+		width: 12%;
+	    top: 54%;
+	    z-index: 2;
+	}
+	.zhuo{
+		width: 75%;
+	    left: 20%;
+	    top: 45%;
+	    z-index: 2;
+	}
+	.hua{
+		width: 17%;
+	    right: 77%;
+	    top: 60%;
+	}
+	.guizi{
+		width:20%;
+		left:0;
+	}
+	.deng{
+		top: 30%;
+	    width: 16%;
+	    left: 65%;
+	}
+	.wps{
+		width: 25%;
+	    left: 25%;
+	    top: 30%;
+	}
+	.huapen{
+		width: 15%;
+	    top: 39%;
+	    left: 8%;
+	    z-index: 2;
+	}
+}
+.page6,.page7{
+	background:#fe8953;
+	.page6box,.page7box{
+		width:80%;
+		height:70%;
+		padding:15% 10%;
+		position:relative;
+		img{
+			width:100%;
+			height:auto;
+			margin-bottom:10%;
+		}
+		.tong{
+			position:absolute;
+			width:80%;
+			right:-10%;
+			bottom:-15%;
+			opacity:0;
+			-webkit-animation:scal 1s forwards;
+		}
+	}
+}
+@-webkit-keyframes scal{
+	0%{
+		opacity:0;
+		-webkit-transform:scale(1);
+	}
+	50%{
+		opacity:0.4;
+	}
+	100%{
+		opacity:1;
+		-webkit-transform:scale(0.5);
+	}
+}
